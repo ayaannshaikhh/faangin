@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAANGin | Results</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans min-h-screen flex items-center justify-center px-4">
+  <div class="w-full max-w-3xl p-8 bg-gray-900 rounded-xl shadow-lg">
+    <h1 class="text-3xl font-bold mb-6 text-center text-purple-400">🧠 Resume Analysis Results</h1>
+
+    <div class="prose prose-invert max-w-none text-white bg-gray-800 p-6 rounded-lg space-y-6 leading-relaxed">
+        {{ feedback | safe }}
+      </div>         
+
+    <div class="text-center mt-6">
+      <a href="/" class="text-purple-400 hover:underline">← Upload another resume</a>
+    </div>
+  </div>
+</body>
+</html>

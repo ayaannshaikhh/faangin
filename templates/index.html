@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAANGin | Resume Analyzer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans h-screen flex items-center justify-center">
+  <div class="w-full max-w-md p-8 bg-gray-900 rounded-xl shadow-lg">
+    <h1 class="text-3xl font-bold mb-6 text-center text-purple-400">🚀 FAANGin Resume Analyzer</h1>
+    <form action="/" method="post" enctype="multipart/form-data" class="space-y-4">
+      <label class="block text-sm text-gray-300">Upload your resume (PDF only):</label>
+      <input type="file" name="file" accept=".pdf" class="w-full text-sm bg-gray-800 border border-gray-700 rounded px-4 py-2 text-white">
+
+      <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded transition duration-200">
+        Analyze Resume
+      </button>
+    </form>
+  </div>
+</body>
+</html>
