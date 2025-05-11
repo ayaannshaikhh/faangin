@@ -86,7 +86,7 @@ The app returns AI-powered feedback like:
 
 ## 🌐 Live Demo
 
-_(Coming soon)_
+![Demo](assets/faangin_demo.gif)
 
 ---
 
